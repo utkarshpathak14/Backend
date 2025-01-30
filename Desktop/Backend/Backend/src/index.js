@@ -13,7 +13,7 @@ dotenv.config();
 
 // Middleware
 app.use(cors({
-    origin: "http://localhost:5173", // Allow your frontend
+    origin: "https://vibechat-here.netlify.app/", // Allow your frontend
     credentials: true,              // Allow cookies
 }));
 
